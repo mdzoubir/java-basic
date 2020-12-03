@@ -27,7 +27,7 @@ public class calculer {
 		int numCarts = num / carts;
 		int numbillets = num / billets;
 		
-		int res = (num % cafe) + (num % carts) + (num % billets);
+		int res = (num % cafe) + (num % carts) + (num % billets) + (prixCCB % 3);
 		
 		System.out.println("le prix des livers : " + prixLivres +"dh");
 		System.out.println("le nomber des cafe : " + numCafe);
